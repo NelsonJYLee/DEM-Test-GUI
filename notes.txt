@@ -1,0 +1,16 @@
+Flowchat for DEM GUI
+1. After clicking next on the first page, the patient inputs will be retrieved by the mainwindow via get_patient_info() in the first page
+2. This info will be used to update the self.patient of the main window
+3. Clicking record will start the recording function, the information will be retrieved by the mainwindow upon clicking next each time.
+4. upon clicking the download pdf button on the main window, the mainwindow will update all the parameters in the pdf download function and the pdf will be generated
+
+07/24/2024
+Today: 
+The record and stop recording function now works, the correct transcription is being outputted
+Next: 
+I need to send this test data back to the main window, there it will be processed with the difference_finder() function
+Then I need to keep this data in the main window
+I need to generate all the other test pages to do the same
+the last page of the test will be a results page with the option to print a pdf
+this page will be sent all the data when clicked next from the previous page
+
